@@ -380,6 +380,13 @@
     border-radius: 100px;
     background-color: #df7f82;
     margin: 5px;
+    transition: .3s all;
+}
+.footer-icon-list i:hover 
+{
+    background-color: white;
+    color: black;
+    transform: translateY(-5px);
 }
 /* Responsive section here  */
 @media screen and (max-width:991px)
@@ -454,5 +461,9 @@
     .footer-icon-list 
     {
         text-align: left;
+    }
+    .book-container p 
+    {
+        width: 100%;
     }
 }
