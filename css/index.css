@@ -209,6 +209,7 @@
 
 
 /* Customer Section Style Started Here  */
+
 .right-card 
 {
     background-color: white;
@@ -216,6 +217,11 @@
     border-radius: 3px;
     box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.413);
     margin: 30px 0px;
+    transition: .3s all;
+}
+.right-card:hover 
+{
+    transform: translateX(30px);
 }
 .customer-card-left 
 {
@@ -224,6 +230,11 @@
     position: relative;
     padding: 50px 20px;
     top: 100px;
+    transition: .3s all;
+}
+.customer-card-left:hover
+{
+    transform: translateX(-30px);
 }
 .customer-card-left h3
 {
@@ -294,6 +305,7 @@
 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     max-width: 70%;
 }
 .brokenhands-details 
@@ -337,7 +349,7 @@
 }
 .footer-right input 
 {
-    width: 80%;
+    width: 70%;
     height: 40px;
     outline: none;
     border-radius: 100px;
@@ -434,5 +446,13 @@
     .contact-icon 
     {
         width: 100%;
+    }
+    .header-title 
+    {
+        font-size: 30px;
+    }
+    .footer-icon-list 
+    {
+        text-align: left;
     }
 }
